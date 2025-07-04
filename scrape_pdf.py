@@ -5,6 +5,22 @@ import re
 
 pdf = 'UoN _ Blue Castle _ My Marks _ My Transcript.pdf'
 
+## Unofficial UNM Standard
+# def wa2cgpa(wa):
+#     if wa >= 75:
+#         return 4
+#     elif wa >= 70:
+#         return 3.67
+#     elif wa >= 65:
+#         return 3.33
+#     elif wa >= 60:
+#         return 3
+#     elif wa >= 55:
+#         return 2.67
+#     elif wa >= 50:
+#         return 2.33
+
+## Monash Standard
 def wa2cgpa(wa):
     if wa >= 80:
         return 4
